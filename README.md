@@ -4,7 +4,7 @@ A Claude Code workspace that turns your raw notes into posts for LinkedIn, X, Th
 
 Built by Diana Dobra on the setup of Maja Voje's [GTM Strategist skills](https://github.com/GTM-Strategist/gtm-strategist-skills): skills in `.claude/skills/`, context files you fill in once, and every output saved in the repo.
 
-<img src="examples/outputs/visuals/content-workflow/content-workflow.png" alt="From raw notes to a scheduled post: first train it on your writing and the way you speak; then raw material, a brief with evidence, a LinkedIn draft and visual, humanizer and voice check, X, Threads and Bluesky versions, and you approve while Zernio schedules. Every edit trains the next draft." width="540">
+<img src="examples/outputs/visuals/content-workflow/content-workflow.png" alt="From raw notes to a scheduled post. Before your first post, train it on your writing and the way you speak. Then, for every post: raw material, a brief with evidence, a LinkedIn draft and visual, humanizer and voice check, X, Threads and Bluesky versions, and you approve while Zernio schedules. Every edit trains the next draft." width="540">
 
 ## How it works
 
