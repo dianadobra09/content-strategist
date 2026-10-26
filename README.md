@@ -4,7 +4,7 @@ A Claude Code workspace that turns your raw notes into posts for LinkedIn, X, Th
 
 Built by Diana Dobra on the setup of Maja Voje's [GTM Strategist skills](https://github.com/GTM-Strategist/gtm-strategist-skills): skills in `.claude/skills/`, context files you fill in once, and every output saved in the repo.
 
-![From raw notes to a reviewed post](examples/outputs/visuals/content-workflow/content-workflow.png)
+<img src="examples/outputs/visuals/content-workflow/content-workflow.png" alt="From raw notes to a scheduled post: first train it on your writing and the way you speak; then raw material, a brief with evidence, a LinkedIn draft and visual, humanizer and voice check, X, Threads and Bluesky versions, and you approve while Zernio schedules. Every edit trains the next draft." width="540">
 
 ## How it works
 
@@ -68,7 +68,7 @@ references/               post formats, feelings, reach tags, what works on Thre
 ideas/                    your raw ideas: open/, used/, files/
 outputs/                  drafts, ready and published posts per channel, visuals, carousel kit, schedule, log, angles
 scripts/                  voice_stats.py, compare.py, hook_check.py, schedule_plan.py
-examples/                 Diana's voice files, published posts, the ideas behind them and their visuals
+examples/                 Diana's voice files, published and approved posts, the ideas behind them and their visuals
 ```
 
 ## Examples
@@ -77,6 +77,7 @@ examples/                 Diana's voice files, published posts, the ideas behind
 
 - `voice/`: Diana's voice guide, kill list and a selection from the feedback log, learned from her notes and her edits to drafts.
 - Four published posts with their X, Threads and Bluesky versions: an explainer built on four studies, a post on a design team moving from Figma to a React repo, with its animation and the HTML it was built from, a short post built on one paper, and a research post on Character.AI's bankruptcy.
+- Three approved posts in the ready queue, each with its X, Threads and Bluesky set: subscription or usage pricing for AI products and the EU rule on detectable AI text, each with a two-page carousel, and a question to founders about Google Ads.
 - The research post's idea file keeps the whole trail: the raw notes, the brief, the facts checked against court filings, the hooks with their mobile cut, and the edit log. Its visual crops the quoted lines straight from the court PDFs.
 
 ## Credits and licenses

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080">
+<title>When AI-generated content has to be marked in the EU</title>
+<!-- Checked 2026-10-25 against the European Commission's FAQ
+     (https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act):
+     "Article 50 of the AI Act applies as from 2 August 2026."; for AI systems placed on the market before
+     2 August 2026, the marking and detection obligation (Article 50(2)) applies "only as from 2 December 2026";
+     the obligation "does not apply when the AI system performs an assistive function for standard editing".
+     Article 50(2): outputs "marked in a machine-readable format and detectable as artificially generated or
+     manipulated" (https://artificialintelligenceact.eu/article/50/). "like fixing grammar and spelling" is the
+     post's own example of standard editing. -->
+<link rel="stylesheet" href="../../../../../outputs/visuals/carousel-kit/kit.css">
+<style>
+.timeline{list-style:none;margin-top:72px;position:relative;padding-left:64px}
+.timeline li:first-child::after{content:"";position:absolute;left:-53px;top:30px;bottom:-2px;width:2px;background:var(--line)}
+.timeline li{position:relative;padding-bottom:52px}
+.timeline li::before{content:"";position:absolute;left:-64px;top:2px;width:24px;height:24px;border-radius:50%;background:var(--lime)}
+.timeline .exempt{margin-top:24px}
+.timeline .exempt::before{background:var(--bg);border:2.5px dashed var(--dash)}
+.when{display:block;color:var(--lime-text)}
+.exempt .when{color:var(--muted)}
+.timeline b{display:block;margin-top:12px;font-weight:500;font-size:44px;line-height:54px}
+.sub{display:block;margin-top:6px;font-size:34px;line-height:44px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="art" role="img" aria-label="EU AI Act, Article 50. AI that generates text, images, audio or video has to mark its output as AI-generated, in a machine-readable way. From 2 August 2026 for AI systems put on the market from that day; from 2 December 2026 for systems already on the market before 2 August. Exempt: AI that only does standard editing, like fixing grammar and spelling.">
+  <p class="label eyebrow">EU AI Act, Article 50</p>
+  <h1>Marking AI-generated content</h1>
+  <p class="lead">AI that generates text, images, audio or video has to mark its output as AI-generated, in a machine-readable way.</p>
+  <ol class="timeline">
+    <li><span class="label when">From 2 Aug 2026</span><b>AI systems put on the market from that day</b></li>
+    <li><span class="label when">From 2 Dec 2026</span><b>AI systems already on the market before 2 August</b></li>
+    <li class="exempt"><span class="label when">Exempt</span><b>AI that only does standard editing</b><span class="sub">like fixing grammar and spelling</span></li>
+  </ol>
+  <p class="source">Source: EU AI Act, Article 50(2), and the European Commission's FAQ on Article 50.</p>
+  <div class="foot"></div>
+</main>
+</body>
+</html>
