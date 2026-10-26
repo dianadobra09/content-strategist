@@ -11,9 +11,8 @@ Built by Diana Dobra on the setup of Maja Voje's [GTM Strategist skills](https:/
 1. **Open it.** Clone the repo and open the folder in Claude Code. You need Python 3. Optional: Node 18+ and ffmpeg for animations, Google Chrome on macOS for carousels, and a Zernio account for scheduling.
 2. **Train it on your voice.** Paste 10–20 of your posts, a few messages or emails, and transcripts of voice memos, then say "train my voice with these". Voice memos show how you explain things when you aren't polishing them. Mark your favorite posts `best`.
 3. **Fill in your positioning.** Say "help me fill in my positioning" (`strategy/positioning.md`). If you're building a product, also fill in `strategy/product.md`: what posts can and can't say about it.
-4. **Add your banned words** to `voice/kill-list.md`.
-5. **Optional: scheduling.** Run `claude mcp add --transport http zernio https://mcp.zernio.com/mcp`, then `/mcp` → zernio → Authenticate. The first "schedule the posts" asks which accounts to use.
-6. **Optional: your brand.** Carousels and animations use the brand of BlinkWrite, Diana's product. Put your colours and fonts in `outputs/visuals/carousel-kit/kit.css` and `.claude/skills/motion-graphics-builder/template/index.html`.
+4. **Optional: scheduling.** Run `claude mcp add --transport http zernio https://mcp.zernio.com/mcp`, then `/mcp` → zernio → Authenticate. The first "schedule the posts" asks which accounts to use.
+5. **Optional: your brand.** Carousels and animations use the brand of BlinkWrite, Diana's product. Put your colours and fonts in `outputs/visuals/carousel-kit/kit.css` and `.claude/skills/motion-graphics-builder/template/index.html`.
 
 ## How a post gets made
 
