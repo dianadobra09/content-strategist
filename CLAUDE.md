@@ -40,6 +40,7 @@ Paths are relative to this folder. If the author is building a product, its fact
 | The author's own posts, profile or export, or the published version | `train-voice` |
 | Someone else's profile, posts to learn from, or a creator's notes on what got them reach | `study-creator` |
 | "idea: ...", "save this idea" (save it word for word, don't write it) | `content-plan` |
+| "mark it ready", "approved", after reviewing a draft | split the draft into `ready/` as in "Post file" below |
 | "what should I post?", "I posted it", "how's my mix?" | `content-plan` |
 | "schedule", "schedule the posts", "what's scheduled?", "move this post" | `schedule-posts` |
 | "make a visual", a diagram, chart, carousel or annotated screenshot for a post | `strategy/visuals.md`; use the matching artifact tools |

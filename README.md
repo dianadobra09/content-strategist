@@ -22,7 +22,7 @@ LinkedIn is the main channel, so every post starts there:
 2. **Brief.** It picks one reader and one takeaway, asks you for what's missing and checks each fact against its source. If your notes get a fact wrong, it fixes it and tells you.
 3. **Draft.** Your words, in a known format (`references/formats.md`), with one feeling the post should give the reader (`references/psychology.md`). It suggests up to three openings and shows where LinkedIn cuts each one on mobile.
 4. **Check.** A humanizer, then a voice check against your voice guide and banned words.
-5. **Approve.** Nothing goes out without you. Approved posts wait in `outputs/posts/ready/`.
+5. **Approve.** Nothing goes out without you. Drafts stay in `outputs/posts/drafts/` until you've reviewed them and say "mark it ready". Then it splits the post by channel into `outputs/posts/ready/`. Only ready posts get scheduled.
 
 Around that:
 
@@ -40,6 +40,7 @@ Around that:
 | "what should I post next?" | a short list from your ideas |
 | "put this on X / Threads / Bluesky" | versions for those channels |
 | "does this sound like me?" | small edits you can reject |
+| "mark it ready", once you've reviewed a draft | the post split by channel into the ready queue |
 | "make a visual", "make a carousel", "animate this" | the visual and its editable source |
 | "schedule the posts" | the posts scheduled in Zernio |
 | "here's what I actually posted" | your edits added to the voice guide |
