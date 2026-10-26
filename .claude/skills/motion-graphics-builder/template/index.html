@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080">
+<title>Motion graphic</title>
+<style>
+@font-face{font-family:"Onest";font-weight:400;src:url(fonts/Onest-400.ttf) format("truetype")}
+@font-face{font-family:"Onest";font-weight:500;src:url(fonts/Onest-500.ttf) format("truetype")}
+@font-face{font-family:"Geist Mono";font-weight:500;src:url(fonts/GeistMono-500.ttf) format("truetype")}
+/* BlinkWrite's brand guidelines (brand kit 2.19), without a logo or product name. Replace them with your brand's colours and fonts. */
+:root{
+  --bg:#FAFAFB; --night:#1F2223; --muted:#596165; --line:#D4D9D5; --mist:#E8EBE7;
+  --white:#FFFFFF; --lime:#90BF00; --lime-text:#526D00; --lime-soft:#F3F9E0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;background:var(--bg);overflow:hidden}
+body{font-family:"Onest",sans-serif;color:var(--night);-webkit-font-smoothing:antialiased}
+.art{position:relative;width:1080px;height:1350px;padding:72px}
+.label{font-family:"Geist Mono",monospace;font-weight:500;font-size:24px;line-height:30px;letter-spacing:.06em;text-transform:uppercase}
+.eyebrow{color:var(--lime-text)}
+h1{margin-top:22px;font-weight:500;font-size:80px;line-height:88px;letter-spacing:-1.6px}
+
+.card{position:relative;margin-top:56px;background:var(--white);border:1.5px solid var(--line);border-radius:16px;overflow:hidden;
+  box-shadow:0 8px 16px rgba(31,34,35,.06),0 2px 4px rgba(31,34,35,.05)}
+.card-head{height:66px;padding:18px 40px 0;border-bottom:1.5px solid var(--mist);color:var(--muted)}
+.step{display:grid;grid-template-columns:76px 1fr 48px;align-items:center;height:150px;padding:0 40px;border-bottom:1.5px solid var(--mist)}
+.step:last-child{border-bottom:0}
+.step .num{font-size:30px;color:var(--muted)}
+.step b{display:block;font-weight:500;font-size:40px;line-height:48px}
+.step .note{margin-top:6px;font-size:31px;line-height:40px;color:var(--muted)}
+.check{justify-self:end;width:30px;height:16px;margin-top:-8px;border-left:5px solid var(--lime);border-bottom:5px solid var(--lime);transform:rotate(-45deg)}
+.marker{position:absolute;left:0;top:66px;width:8px;height:150px;background:var(--lime);opacity:0}
+
+.result{margin-top:64px}
+.result .label{color:var(--muted)}
+.statement{margin-top:12px;font-weight:500;font-size:44px;line-height:54px}
+
+/* Everything motion.js moves or fades: without it Chrome draws a frame differently depending on the one before. */
+.step,.check,.marker,.result{will-change:opacity,transform}
+
+.foot{position:absolute;left:72px;right:72px;bottom:72px;height:1.5px;background:var(--line)}
+.foot::after{content:"";position:absolute;right:0;top:-16px;width:4px;height:32px;background:var(--lime)}
+</style>
+</head>
+<body>
+<!-- Written in its finished state: this page is the poster. motion.js sets what differs earlier in the timeline. -->
+<main class="art" role="img" aria-label="Replace with what the graphic shows and its result.">
+  <p class="label eyebrow">Topic label</p>
+  <h1>Headline in two lines<br>that the motion explains</h1>
+
+  <section class="card">
+    <p class="card-head label">Process name</p>
+    <div class="steps">
+      <div class="step"><span class="num label">01</span><div><b>First step</b><p class="note">what goes in</p></div><i class="check"></i></div>
+      <div class="step"><span class="num label">02</span><div><b>Second step</b><p class="note">what changes or gets checked</p></div><i class="check"></i></div>
+      <div class="step"><span class="num label">03</span><div><b>Third step</b><p class="note">what comes out</p></div><i class="check"></i></div>
+    </div>
+    <div class="marker"></div>
+  </section>
+
+  <section class="result">
+    <p class="label">Result</p>
+    <p class="statement">The one line the reader keeps<br>after the motion stops</p>
+  </section>
+
+  <div class="foot"></div>
+</main>
+<script src="motion.js"></script>
+</body>
+</html>

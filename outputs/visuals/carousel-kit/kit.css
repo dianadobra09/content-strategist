@@ -1,0 +1,23 @@
+/* Shared look for LinkedIn carousel slides, 1080 x 1350, from BlinkWrite's brand guidelines (brand kit 2.19):
+   Onest for text, Geist Mono for labels, lime only as an accent. Replace them with your brand's colours and fonts. */
+@font-face{font-family:"Onest";font-weight:400;src:url(fonts/Onest-400.ttf) format("truetype")}
+@font-face{font-family:"Onest";font-weight:500;src:url(fonts/Onest-500.ttf) format("truetype")}
+@font-face{font-family:"Geist Mono";font-weight:500;src:url(fonts/GeistMono-500.ttf) format("truetype")}
+:root{
+  --bg:#FAFAFB; --night:#1F2223; --muted:#596165; --line:#D4D9D5; --mist:#E8EBE7;
+  --white:#FFFFFF; --lime:#90BF00; --lime-text:#526D00; --lime-soft:#F3F9E0; --dash:#A3AAA7;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;background:var(--bg);overflow:hidden}
+body{font-family:"Onest",sans-serif;color:var(--night);-webkit-font-smoothing:antialiased}
+.art{position:relative;width:1080px;height:1350px;padding:72px}
+.label{font-family:"Geist Mono",monospace;font-weight:500;font-size:24px;line-height:30px;letter-spacing:.06em;text-transform:uppercase}
+.eyebrow{color:var(--lime-text)}
+h1{margin-top:22px;font-weight:500;font-size:72px;line-height:80px;letter-spacing:-1.4px}
+.lead{margin-top:24px;font-size:36px;line-height:46px;color:var(--muted)}
+.note{font-size:30px;line-height:40px;color:var(--muted)}
+.source{position:absolute;left:72px;right:72px;bottom:112px;font-size:24px;line-height:32px;color:var(--muted)}
+.foot{position:absolute;left:72px;right:72px;bottom:72px;height:1.5px;background:var(--line)}
+.foot::after{content:"";position:absolute;right:0;top:-16px;width:4px;height:32px;background:var(--lime)}
+/* Photo or meme slide: the image fills the page. */
+.full{position:absolute;left:0;top:0;width:1080px;height:1350px;object-fit:cover}

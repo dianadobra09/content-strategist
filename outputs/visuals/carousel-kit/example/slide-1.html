@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080">
+<title>Page 1: the question</title>
+<!-- Template page. Keep one big question as the title, highlight the key words with <mark>,
+     put the real numbers below it and one short source line at the bottom. Replace every placeholder. -->
+<link rel="stylesheet" href="../kit.css">
+<style>
+.q{margin-top:8px;font-size:88px;line-height:102px;letter-spacing:-2px}
+.q mark{color:inherit;background:linear-gradient(transparent 50%, rgba(144,191,0,.45) 50%, rgba(144,191,0,.45) 92%, transparent 92%);
+  padding:0 6px;margin:0 -6px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.caret{display:inline-block;width:8px;height:78px;background:var(--lime);margin-left:14px;vertical-align:-8px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:120px;padding-top:48px;border-top:1.5px solid var(--line)}
+.num{display:block;font-weight:500;font-size:230px;line-height:210px;letter-spacing:-8px}
+.what{display:block;margin-top:24px;font-size:52px;line-height:60px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="art" role="img" aria-label="Template page: a big question as the title with the key words highlighted, two numbers below it and a source line.">
+  <p class="label eyebrow">Template</p>
+  <h1 class="q">A big question,<br>with the <mark>key words</mark><br><mark>highlighted</mark>?<span class="caret"></span></h1>
+  <div class="stats">
+    <div><span class="num">00</span><span class="what">first number</span></div>
+    <div><span class="num">00</span><span class="what">second number</span></div>
+  </div>
+  <p class="source">Source: where the numbers come from</p>
+  <div class="foot"></div>
+</main>
+</body>
+</html>

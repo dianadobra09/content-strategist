@@ -1,0 +1,9 @@
+{
+  "name": "motion-graphics-builder",
+  "private": true,
+  "description": "Renders animated HTML scenes for posts to MP4, GIF and PNG.",
+  "type": "module",
+  "dependencies": {
+    "playwright": "1.61.1"
+  }
+}

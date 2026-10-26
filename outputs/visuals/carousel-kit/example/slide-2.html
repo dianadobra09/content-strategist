@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080">
+<title>Page 2: the answer</title>
+<!-- Template page. The answer to page 1 as a short calculation, with the result highlighted.
+     Say which numbers are estimates in the source line. Replace every placeholder. -->
+<link rel="stylesheet" href="../kit.css">
+<style>
+.q{margin-top:8px;font-size:92px;line-height:100px;letter-spacing:-2px}
+.eq{margin-top:96px}
+.line{display:flex;align-items:baseline;gap:28px;padding:30px 0;border-bottom:1.5px solid var(--mist)}
+.op{width:84px;font-weight:400;font-size:96px;line-height:100px;color:var(--muted)}
+.num{font-weight:500;font-size:116px;line-height:116px;letter-spacing:-3px}
+.what{font-size:44px;line-height:52px;color:var(--muted)}
+.total{margin-top:28px;border-bottom:0;background:var(--lime-soft);border-radius:16px;padding:36px 32px;margin-left:-32px;margin-right:-32px;position:relative}
+.total::before{content:"";position:absolute;left:0;top:0;bottom:0;width:8px;background:var(--lime);border-radius:16px 0 0 16px}
+.total .num{font-size:146px;line-height:146px}
+</style>
+</head>
+<body>
+<main class="art" role="img" aria-label="Template page: a follow-up question, a two-line calculation and the highlighted result, with a source line.">
+  <p class="label eyebrow">Template</p>
+  <h1 class="q">The follow-up question the reader asks next?</h1>
+  <div class="eq">
+    <div class="line"><span class="op"></span><span class="num">00</span><span class="what">what it counts</span></div>
+    <div class="line"><span class="op">×</span><span class="num">00</span><span class="what">per item</span></div>
+    <div class="line total"><span class="op">≈</span><span class="num">00</span><span class="what">the result</span></div>
+  </div>
+  <p class="source">Source line: which numbers are measured and which are estimates.</p>
+  <div class="foot"></div>
+</main>
+</body>
+</html>

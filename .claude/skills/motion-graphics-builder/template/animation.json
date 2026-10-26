@@ -1,0 +1,13 @@
+{
+  "entry": "index.html",
+  "selector": ".art",
+  "width": 1080,
+  "height": 1350,
+  "duration": 8000,
+  "fps": 30,
+  "posterMs": 6000,
+  "seamless": true,
+  "fontFamilies": ["Onest", "Geist Mono"],
+  "reviewTimes": [1000, 2200, 3400, 4700, 7500],
+  "gif": {"width": 720, "fps": 20}
+}
