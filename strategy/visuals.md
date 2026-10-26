@@ -13,7 +13,7 @@ Photos are one option. Technical diagrams, charts and code excerpts can be creat
 - **A measured result:** a chart from real data, with units, sample size, period and source. Do not invent missing values.
 - **A primary source:** excerpts cropped unchanged from the document, with the quoted lines highlighted (`examples/outputs/visuals/character-ai-bankruptcy/`).
 - **A useful process:** a short PDF or carousel with one step per page, combining artifacts and explanations. Use only as many pages as needed.
-- **A change in motion:** a short looping animation of a flow or diagram when motion shows the change better than a still: input becoming output, steps completing, a before and after. Use `motion-graphics-builder`.
+- **A change in motion:** a short looping animation of a flow or diagram when motion shows the change better than a still: input becoming output, steps completing, a before and after. Use `motion-graphics-builder`; `examples/outputs/visuals/design-team-figma-to-react/` shows a finished one.
 - **An interaction:** a short recording of a real run, with readable captions and the relevant result. Do not hide failures with misleading edits.
 - **No visual:** use text alone when an attachment adds no evidence, explanation or meaningful context.
 

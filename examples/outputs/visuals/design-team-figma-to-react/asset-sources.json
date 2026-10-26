@@ -1,0 +1,17 @@
+{
+  "status": "Redone in the BlinkWrite brand kit style on 2026-10-14 at Diana's request (\"redo the code to figma visual using the current brand kit\"). Same headline and four steps as the 2026-10-13 version. Same day: \"remove the plan label, and make it a bit faster, and add some checks on each step done\". Then: \"make the video move faster\" and \"enphasize in the title 80% of Figma\" (a #E0FF82 highlight behind the words, ink text, like selected text).",
+  "brand_kit": "BlinkWrite brand kit 2.19, approved 2026-09-14. Light layout: #FAFAFB background, ink #1F2223, muted #596165, rules #D4D9D5, lime #90BF00 cursor, step checks and footer marker, pale lime #F3F9E0 step highlight, #526D00 active step number, 72 px margins, Onest for text, Geist Mono for labels.",
+  "launch_hold": "No BlinkWrite logo, name or link: the post goes out before launch.",
+  "fonts": "fonts/: Onest 400 and 500, Geist Mono 500, copied from the kit; SIL OFL 1.1, licence files included.",
+  "designer": "assets/designer.png: the woman from the kit's approved human cast (characters/human-cast.png), cropped 580 x 580 at 1458,30 and scaled to 320 px. Illustrative, not a team member.",
+  "logos": {
+    "figma": "https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/figma/figma-original.svg",
+    "react": "https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/react/react-original.svg",
+    "tailwind": "https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/tailwindcss/tailwindcss-original.svg",
+    "claude": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/claude.svg, filled with Claude's brand colour #D97757",
+    "openai": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/openai.svg"
+  },
+  "animation": "8.5 s loop at 30 fps: the full plan for 0.5 s, each step for 1.5 s with the lime cursor in it, its number turning into a check when the highlight moves on, then the full plan with all four checked for 2 s. The PNG is that final state.",
+  "build": "python3 build-animation.py, then PLAYWRIGHT_PATH=<playwright> node render-animation.cjs",
+  "checked": "2026-10-14"
+}

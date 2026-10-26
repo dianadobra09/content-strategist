@@ -25,7 +25,7 @@ does anyone have first-hand experience with this?
 
 ## Visual
 
-An 8.5-second animated flow in the brand style, built from HTML and rendered to MP4 (not included in this repo because it shows other companies' logos; see the live post).
+[figma-to-react-linkedin.mp4](../../../visuals/design-team-figma-to-react/figma-to-react-linkedin.mp4), an 8.5-second animated flow in BlinkWrite's brand style, built from HTML and rendered to MP4 (source: `index.html`, `build-animation.py`).
 
 Alt text: “Can designers replace 80% of Figma with Claude code?” Animated flow: Figma for ideation and prototyping → reusable React and Tailwind components in a repo → Claude or Codex builds screens from those components → a designer checks the screens and asks for changes, shown with a drawn portrait of the designer. Each step gets a check as the flow moves on.
 

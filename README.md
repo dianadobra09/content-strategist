@@ -76,7 +76,7 @@ examples/                 Diana's voice files, published posts, the ideas behind
 `examples/` shows real results from Diana's account. The skills treat it as reference only; your own posts start in the empty `ideas/` and `outputs/` folders, and your voice in `voice/`.
 
 - `voice/`: Diana's voice guide, kill list and a selection from the feedback log, learned from her notes and her edits to drafts.
-- Four published posts with their X, Threads and Bluesky versions: an explainer built on four studies, a post on a design team moving from Figma to a React repo (its animated visual is in the live post), a short post built on one paper, and a research post on Character.AI's bankruptcy.
+- Four published posts with their X, Threads and Bluesky versions: an explainer built on four studies, a post on a design team moving from Figma to a React repo, with its animation and the HTML it was built from, a short post built on one paper, and a research post on Character.AI's bankruptcy.
 - The research post's idea file keeps the whole trail: the raw notes, the brief, the facts checked against court filings, the hooks with their mobile cut, and the edit log. Its visual crops the quoted lines straight from the court PDFs.
 
 ## Credits and licenses
